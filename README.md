@@ -37,7 +37,7 @@ and backward-compatible GNSS security paradigm.
    - Validates the derived root key using the ECDSA-512 Signature.
 
 ## 📂 File Structure
-* `Main_IMTD_Simulator.m` : The main script to run the end-to-end simulation.
+* `Main_IMTD.m` : The main script to run the end-to-end simulation.
 * `gpsL1CCodes.m` : Helper function generating GPS L1C baseband codes (Data, Pilot, Overlay).
 * `gpsNavigationConfig.m` & `gpsNAVDataEncode.m` : Standard CNAV-2 data encoding helpers.
 * `L1CLDPCParityCheckMatrices.mat` : Required parity-check matrices for CNAV-2 LDPC encoding/decoding.
